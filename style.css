@@ -19,11 +19,12 @@ display: none;
 #fixe{
     position: fixed;
     top: 500px;
+    border: 1px solid  #037ef3;
     z-index: 99999;
     background-color: #037ef3;
     color: white;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 30px ;
     right: 10px;
 }
 #home{
