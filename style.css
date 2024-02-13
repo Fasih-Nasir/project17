@@ -27,6 +27,24 @@ display: none;
     border-radius: 30px ;
     right: 10px;
 }
+#saz{
+    /* transition: 0.9s ease; */
+    /* border: 2px solid red; */
+}
+#saz{
+    display: none;
+    visibility: hidden;
+
+    
+}
+#sl:hover #saz{
+   
+    display: block;
+    visibility: visible;
+    color: white;
+background-color: lightgrey;
+}
+
 #home{
     background-image: url(img/pic1.png);
     /* background-attachment: fixed; */
@@ -67,7 +85,7 @@ padding: var(--padding);
 .navbar-brand{
     color: white;
 }
-.wh{
+.wh{ transition: 0.2s ease;
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     color: var(--scolor);
